@@ -1,0 +1,74 @@
+doctype html
+html(lang="en")
+    head
+        title Mónica López
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue:400|Chivo:300,300i,400i,400,700,700i,900,900i|Archivo+Black:400&amp;subset=latin,latin-ext")
+        link(rel="stylesheet" href="css/tailwind/tailwind-theme.css")
+        link(rel="icon" href="favicon.ico")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon.png")
+        script(src="js/main.js")
+    body.bg-body.text-body.font-body
+        .container.mx-auto.px-4
+
+
+            nav(class="flex flex-wrap items-center justify-between p-4")
+                div(class="flex flex-shrink-0 mr-10")
+                    a(class="text-xl text-indigo-500 font-semibold", href="index.html")
+                        img(src="images/marca.png", alt="Art for the amazon", width="200")
+                div(class="block lg:hidden")
+                    button(class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500")
+                        svg(class="fill-current h-3 w-3", viewbox="0 0 20 20", xmlns="http://www.w3.org/2000/svg")
+                            title Menu
+                            path(d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z")
+                div(class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto")
+                    div(class="lg:mr-auto")
+                        a(class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700", href="/about.html") ABOUT THE CAMPAIGN
+                        a(class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700", href="/index.html#artists") MEET THE ARTISTS
+                        a(class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700", href="#")
+                        a(class="block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-blue-700", href="#")
+                    div
+                        a(class="block lg:inline-block mt-4 lg:mt-0 lg:mr-8 text-blue-900 hover:text-blue-700", href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NGXGTVDPXHCJG") DONATE
+                        a(class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow", href="/gallery.html") EXPLORE THE EXHIBITION
+
+            section(class="py-12 px-4")
+                div(class="flex flex-wrap -mx-4 mb-8")
+                    div(class="lg:w-1/2 px-4 mb-4 lg:mb-0")
+                        img(src="images/Mónica_López.jpeg" alt="MonicaLopez" class="rounded shadow-md" )
+                    
+                    div(class="lg:w-1/2 px-4")
+                        h2(class="text-4xl font-heading font-semibold" ) Mónica López
+                        span(class="text-xl" ) Artist
+                        p(class="my-5" ) Mónica Paola López Pinzón vive y trabaja en Bogotá, Colombia, donde nació en 1982 y estudió Artes Plásticas en la Universidad Nacional de Colombia de 2000 a 2005. Obtuvo el segundo mejor promedio en 2003 y 2004; y se le otorgó por el Comité Asesor de la Escuela de Artes Plásticas de la Universidad Nacional en 2005 una Mención por Trayectoria Destacada; y se graduó como Maestra en Artes Plásticas con énfasis en pintura. También participó en las exposiciones colectivas Portátil en 2002 y D.A.C.R. en 2005 de Gustavo Zalamea. Y el Objeto del Dibujo en 2019. Por varios años se dedicó a la docencia dictando arte en colegios y hoy en día da talleres de teoría del color.
+                        div(class="flex")
+
+            section(class="py-12 px-4")
+                div(class="max-w-3xl mx-auto text-center")
+                    div(class="relative" style="padding-bottom: 56.25%")
+                        <iframe src="https://www.youtube.com/embed/uX2_T5WSoXc" frameborder="0" class="absolute w-full h-full" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            section(class="text-center bg-cover", style="background-image: url('images/bosque02.jpeg')")
+                div(class="relative flex items-center py-32")
+                    div(class="absolute bg-black opacity-50 inset-0")
+                    div(class="z-10 max-w-2xl mx-auto")
+                        h2(class="text-5xl mb-8 leading-tight font-heading text-white") EXPLORE 20+ UNIQUE ART PIECES FOR SALE
+                        a(class="w-auto inline-block px-8 py-4 mt-auto leading-none text-white text-center bg-indigo-500 hover:bg-indigo-600 rounded shadow", href="/gallery.html") ENTER THE EXHIBITION
+
+
+            footer
+                div(class="flex flex-wrap items-center py-4 px-4 border-b")
+                    div(class="w-full lg:w-1/5 text-center lg:text-left")
+                        a(class="text-xl text-indigo-500 font-semibold", href="index.html")
+                            img(src="images/marca.png", alt="ART FOR THE AMAZON", width="150")
+                    div(class="w-full lg:w-3/5 mt-4 lg:mt-0 text-center")
+                        a(class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700", href="/about.html") About the Campaign
+                        a(class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700", href="/index.html#artists") Meet the Artists
+                        a(class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700", href="/gallery.html") Explore The Exhibition
+                        a(class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700", href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NGXGTVDPXHCJG") Donate
+                div(class="py-4 text-center")
+                    span(class="block md:inline-block mb-4 md:mb-0 mx-3")  2020 Made with ❤ in Barranquilla
+                    a(class="inline-block mx-4 text-blue-900 hover:text-blue-700", href="/about.html") Privacy Policy
+                    a(class="inline-block mx-4 text-blue-900 hover:text-blue-700", href="mailto: vinculateporlaamazonia@gmail.com") Get our Email
