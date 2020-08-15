@@ -5,9 +5,7 @@
 
 https://www.art4theamazon.org/
 
-```
-Site uses Tailwincss and pugjs. Site made for the Amazon Art initiative to help indigenous families during the world crisis.
-```
+Used TailwindCSS for the ui and pug for the html.
 
 ## 2. Installation
 
