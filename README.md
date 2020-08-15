@@ -5,9 +5,7 @@
 
 https://www.art4theamazon.org/
 
-```
-Site uses Tailwincss and pugjs. Site made for the Amazon Art initiative to help indigenous families during the world crisis.
-```
+Used TailwindCSS for the ui and pug for the html.
 
 ## 2. Installation
 
@@ -31,11 +29,3 @@ If you want PurgeCSS to delete unnecessary CSS classes (and create a smaller CSS
 NODE_ENV=production npm run build
 ```
 
-
-## 4. Credits & Special thanks
-
-I used placeholders from:
-
-Icons: https://webkul.github.io/vivid/
-Pictures: https://unsplash.com/
-Illustrations: https://undraw.co/illustrations
