@@ -31,11 +31,3 @@ If you want PurgeCSS to delete unnecessary CSS classes (and create a smaller CSS
 NODE_ENV=production npm run build
 ```
 
-
-## 4. Credits & Special thanks
-
-I used placeholders from:
-
-Icons: https://webkul.github.io/vivid/
-Pictures: https://unsplash.com/
-Illustrations: https://undraw.co/illustrations
